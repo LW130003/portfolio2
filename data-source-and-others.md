@@ -7,3 +7,5 @@
 
 # Must read post
 1. [Building Portfolio](https://www.dataquest.io/blog/data-science-portfolio-project/) -- a dataquest post on how to build a good portfolio.
+2. [Khan Academy Statistics](https://www.khanacademy.org/math/statistics-probability) -- review statistics with Khan Academy
+3. [Datacamp Python](https://www.datacamp.com/tracks/data-scientist-with-python?tap_a=5644-dce66f&tap_s=97692-82206a) -- review python with datacamp
