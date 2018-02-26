@@ -1,0 +1,145 @@
+html, body {
+	margin: 0;
+	font-family: 'verdana';
+	width: 1200px;
+    height: 1000px;
+}
+
+header {
+	color: #AAAAAA;
+	background: #000;
+    text-align: justify; 
+
+    /* ie 7
+    width: 1200px;  
+    -ms-text-justify: distribute-all-lines;
+    text-justify: distribute-all-lines;*/
+	padding: 50px;
+}
+
+nav {
+	margin-left: 200px;
+    font-size: 14px;
+	display: inline;
+}
+h1 {
+	margin-left: 50px;
+    font-size: 52px;
+	color: white;
+	display: inline;
+}
+
+a.active {
+	margin: 0;
+	color: #3604BB;
+    text-decoration: none;
+}
+
+a.disabled {
+	color: #DDDDDD;
+    text-decoration: none;
+}
+
+div.container{
+	box-sizing: content-box;
+	margin-left: 100px;	
+	margin-right: 100px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+div.subhead0{
+	font-size: 42px;
+}
+
+div.subhead1{
+	font-size: 36px;
+	color: #BBB;
+	margin-bottom: 20px;
+}
+
+hr{
+	outline-style: dotted;
+	outline-color: grey;
+	outline-width: 1px;
+}
+
+.subhead2{
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 30px;
+}
+
+.row{
+	margin-top: 5%;
+	margin-bottom: 5%;	
+}
+
+.column { 
+	display: inline-block;
+	margin-left: 3%;
+	margin-right: 3%;
+	width: 25%; 
+	background: #76D0E8;
+	text-align: center;
+}
+
+.content{
+	margin-bottom: 10%;
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	color: #D5FEFE;
+	font-size: 12px;
+}
+
+.col_title{
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 28px;
+	color: #80F6D6;
+	padding: 4%;
+	border-bottom-color: #B6F6F6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
+.col_link{
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding: 5%;
+	background: #2302B7;
+	color:white;
+	font-size: 14px;
+}
+
+.col_link a{
+	color:white;
+}
+
+#popupBoxWebDesign{
+	top: 0; left: 0; position: fixed; width: 100%; height: 120%;
+	background-color: rgba(0,0,0,0.7); display: none;
+}
+
+.popupBoxWrapper{
+	width: 1200px; 
+	margin: 50px auto;
+}
+
+.x-exit a{
+	color: white;
+	border-radius: 50%;
+	padding: 10px;
+	margin-top: 
+	margin-right: 0;
+	background: black;
+/*	position: relative;*/
+}
+
+.popupBoxContent{
+	background-color: #FFF; 
+	padding: 15px;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Palindrome Check - Javascript</title>
+</head>
+<body>
+Enter any word: <input type="text" id="text">
+<input type="submit" value="Check" onclick="isPalindrome()">
+<script type="text/javascript">
+	function isPalindrome(){
+		ReverseString = ""; // reverse string
+		InputString = document.getElementById("text").value.toLowerCase().replace(/\s+/g, '');
+		//replace remove space, toLowerCase turn all string into lowercase.
+
+		length = InputString.length;
+
+		for(var le=length; le>=0; le--){
+			ReverseString = ReverseString + InputString.charAt(le);
+		}
+		if (InputString == ReverseString){
+			alert('True');
+		}
+		else{
+			alert('False');
+		}
+	}
+</script>
+</body>
+</html>
